@@ -24,4 +24,28 @@ Overall, using Python for Turtle Trading can streamline your trading process, au
 
 
 True range = Maximum(high - low, high - previous day's close, previous day's close - low)
+TR1 = High - low
+TR2 = High - previous day's close
+TR3 = previous day's close - low
+
+## Position Size
+In the context of trading equities in the Indian stock market, calculating Dollar Risk involves determining the amount of money you're willing to risk on a single trade. The process generally includes the following steps:
+
+1. **Determine Account Size**: The total capital available in your trading account.
+2. **Set Risk Percentage per Trade**: The percentage of your account size that you're willing to risk on each trade. A common rule of thumb is 1-2%.
+3. **Calculate Dollar Risk**: Multiply the account size by the risk percentage.
+
+### Example Calculation:
+
+1. **Account Size**: ₹1,00,000 (Indian Rupees)
+2. **Risk Percentage per Trade**: 1%
+
+**Risk**:
+
+Risk = Account Size × ( Risk Percentage / 100)
+
+This means you're willing to risk ₹1,000 on each trade.
+
+
+
 
