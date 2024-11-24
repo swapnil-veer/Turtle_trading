@@ -165,3 +165,8 @@ We will follow **Level 2: Closely Correlated Markets** with a maximum of **6 uni
 
 - **Exit Rule**:  
   Exit the position when the stock reaches a **20-day low**.
+
+# Execution
+1. We will not control zerodha account in this stage.
+2. We will send email and take input that we required.(Buying prize,)
+   
