@@ -99,8 +99,7 @@ class TurtleTrading:
                 f"The file {filename} does not exist. Save data first.")
 
         if self.ticker not in workbook.sheetnames:
-            raise ValueError(f"Sheet for ticker {self.ticker} not found in {
-                             filename}. Ensure data is saved.")
+            raise ValueError(f"Sheet for ticker {self.ticker} not found in {filename}. Ensure data is saved.")
 
         worksheet = workbook[self.ticker]
 
