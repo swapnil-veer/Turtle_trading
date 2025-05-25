@@ -170,7 +170,7 @@ if __name__ == "__main1__":
     top_tickers = process_tickers(tickers, filename, days=1, period="1y")
     print(top_tickers)
 
-def process_single_ticker(ticker: str, period: str, filename: str, days: int) -> Tuple[str, float]:
+def process_single_ticker(ticker: str, period: str = "1y", filename: str = "abc.xlsx", days: int = 1) -> Tuple[str, float]:
     """
     Process a single ticker to fetch data, calculate indicators, and check buy signals.
     Returns a tuple of the ticker and its ATR percentage if it meets the buy signal criteria.
